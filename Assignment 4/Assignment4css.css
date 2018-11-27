@@ -1,0 +1,153 @@
+body {
+/*    background-image: url("wood.png");
+position: absolute;
+background-repeat:no-repeat;
+background-size: cover;*/
+   width: 100%;
+    height: 1000px;
+    /*background-image: url('whitewood.jpg');*/
+    background-size: 100% 100%;
+ }
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+	align-items: stretch;
+	width: 50%;
+	height: 50%;
+	margin-left:auto; 
+	margin-right:auto;
+
+
+}
+
+.overlay{
+display: block;
+	width: 100%;
+	top: 
+	margin-left: auto;
+	margin-right: auto;
+	transition: .1s ease;
+	opacity: 0;
+	background-color: white;
+}
+.container:hover .overlay {
+	opacity: 1;
+}
+
+.butterfly{
+	display:block;
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	/*background-color: red;*/
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    transform: translate(25%,0);
+*/}
+/*.butterfly1 {
+
+    top:50%;
+
+}
+
+.butterfly2 {
+ position:absolute;
+      left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+
+.butterfly3 {
+ position:absolute;
+      left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.butterfly4 {
+ position:absolute;
+     left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.butterfly5{
+ position:static;
+      left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.butterfly6{
+ 
+
+
+}*/
+
+
+/*
+.entomologysign {
+position: absolute;
+top: 0%;
+left: 20%;
+}
+*/
+
+
+
+@media (max-width: 800px) {
+
+	.butterfly {
+		position:static!important;
+		margin:3em auto;
+		transform: translate(0%,0%);
+
+	}
+}
+
+
+/*.butterfly1 {
+	position: absolute;
+ top: 200px;
+ left: 290px;
+}*/
+
+
+
